@@ -1,0 +1,13 @@
+nav ul li a {
+    padding: 2px 0 0 0;
+    position: relative;
+    display: block;
+    font-size: 14px;
+    color: #000000;
+    font-family: 'Poppins', helvetica;
+    font-weight: 500;
+    line-height: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
