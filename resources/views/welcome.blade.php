@@ -170,15 +170,20 @@
                         </a>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 portfolio-thumbnail all react apps p-2 shadow-sm">
+                    <div class="col-lg-4 col-md-6 portfolio-thumbnail all laravel apps p-2 shadow-sm">
                         <a href="https://github.com/Tori-Stark?tab=repositories">
                             <img src="{{ asset('assets/images/portfolio/bustani.jpg') }}" alt="img" width="400" height="300" style="object-fit: contain; object-position: center;">
                         </a>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 portfolio-thumbnail all laravel apps p-2 shadow-sm">
+                    <div class="col-lg-4 col-md-6 portfolio-thumbnail all machine_learning apps p-2 shadow-sm">
                         <a class="" href="https://github.com/Tori-Stark?tab=repositories">
-                            <img src="{{ asset('assets/images/portfolio/PNC.jpg') }}" alt="img" width="400" height="300" style="object-fit: contain; object-position: center;">
+                            <img src="{{ asset('assets/images/portfolio/sign_language.jpeg') }}" alt="img" width="400" height="300" style="object-fit: contain; object-position: center;">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-thumbnail all machine_learning apps p-2 shadow-sm">
+                        <a class="" href="https://github.com/Tori-Stark?tab=repositories">
+                            <img src="{{ asset('assets/images/portfolio/english_swahili.jpeg') }}" alt="img" width="400" height="300" style="object-fit: contain; object-position: center;">
                         </a>
                     </div>
 
