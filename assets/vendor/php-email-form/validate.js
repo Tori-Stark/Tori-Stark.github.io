@@ -26,6 +26,7 @@
       thisForm.querySelector('.sent-message').classList.remove('d-block');
 
       let formData = new FormData( thisForm );
+      let success =  "Sent Successfully!"
 
       if ( recaptcha ) {
         if(typeof grecaptcha !== "undefined" ) {
@@ -75,8 +76,11 @@
       }
     })
     .catch((error) => {
-      if (error.includes('Error: {"next":"/thanks?language=en","ok":true}')) {
-        thisForm.querySelector('.sent-message').classList.add('d-block');
+      if (error.toString().includes('Error: {"next":"/thanks?language=en","ok":true}')) {
+        thisForm.querySelector('.loading').classList.remove('d-block');
+        thisForm.querySelector('.error-message').innerHTML = "Message Sent!";
+        
+        thisForm.querySelector('.error-message').classList.add('d-block');
 
       } else {
 

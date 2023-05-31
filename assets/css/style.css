@@ -975,9 +975,8 @@ section {
 
 .contact .php-email-form .error-message {
     display: none;
-    color: #red;
+    color: red;
     background: #fffff;
-    text-align: left;
     padding: 15px;
     font-weight: 600;
 }
@@ -1190,4 +1189,11 @@ ul.contact-list li .icon {
     margin: auto;
     width: auto;
     height: 280px;
+}.contact .php-email-form .error-message {
+    display: none;
+    color: #red;
+    background: #fffff;
+    /* text-align: left; */
+    padding: 15px;
+    font-weight: 600;
 }
